@@ -25,5 +25,5 @@ git push origin main
 Write-Host ""
 Write-Host "===================================================" -ForegroundColor Green
 Write-Host "  Done! Your updates are live on GitHub." -ForegroundColor Green
-Write-Host "  Repo: https://github.com/ianinafrica9-wq/portfolio" -ForegroundColor Green
+Write-Host "  Repo: https://github.com/iannelson9/portfolio" -ForegroundColor Green
 Write-Host "===================================================" -ForegroundColor Green
