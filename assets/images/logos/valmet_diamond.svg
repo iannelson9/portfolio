@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="valmet_diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="415.18 32.52 150 150">
+  <defs>
+    <style>
+      .cls-1 { fill: url(#linear-gradient-2); }
+      .cls-3 { fill: url(#linear-gradient-3); }
+      .cls-6 { fill: url(#linear-gradient); }
+    </style>
+    <linearGradient id="linear-gradient" x1="504.33" y1="123.23" x2="525.54" y2="144.44" gradientUnits="userSpaceOnUse">
+      <stop offset=".09" stop-color="#399349"/>
+      <stop offset=".19" stop-color="#3c984b"/>
+      <stop offset=".68" stop-color="#48af57"/>
+      <stop offset=".99" stop-color="#4db85c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="504.33" y1="123.23" x2="525.54" y2="144.44" gradientTransform="translate(0 215.04) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#399349"/>
+      <stop offset=".26" stop-color="#41a251"/>
+      <stop offset=".62" stop-color="#49b259"/>
+      <stop offset=".9" stop-color="#4db85c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="492.91" y1="82.69" x2="443.27" y2="132.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0e1e2"/>
+      <stop offset="1" stop-color="#c7c8ca"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-6" d="M518.01,109.07l-49,49,10.82,10.82c10.35,10.35,20.7,0,20.7,0l59.82-59.82h-42.33Z"/>
+  <path class="cls-1" d="M560.34,105.97l-59.82-59.82s-10.35-10.35-20.7,0l-10.82,10.82,49,49h42.33Z"/>
+  <path class="cls-3" d="M420.01,109.07l48.07,48.07,21.17-21.17-26.9-26.9h-42.33ZM468.1,57.89l-48.09,48.09h42.33l26.92-26.92-21.16-21.17Z"/>
+</svg>

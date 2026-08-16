@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Ian Nelson - Engineering Portfolio</title>
+  <meta name="description" content="Engineering projects by Ian Nelson: Formula SAE wheel centers, wheel hubs, failure analysis, Ansys FEA, and Valmet tooling.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-brand">
+        <a href="index.html" class="brand-name">Ian Nelson</a>
+        <span class="brand-tag">Mechanical Engineer</span>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light/dark theme" title="Toggle Theme">&#9728;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="page-top">
+      <h1 class="page-title">Engineering Projects</h1>
+      <p class="page-subtitle">Formula SAE vehicle dynamics, CAD modeling, finite element analysis, and manufacturing case studies.</p>
+    </header>
+
+    <!-- ==================================================================
+         PROJECT 1: FSAE Wheel Center Design (Year 1 vs Year 2)
+         ================================================================== -->
+    <article class="project-entry" id="wheel-center">
+      <h2 class="project-entry-title">FSAE Wheel Center Design</h2>
+      <div class="project-entry-meta">
+        <span>Formula SAE Steering &amp; Suspension</span>
+        <span>Year 1 Design (2024-2025 Car) &middot; Year 2 Design (2025-2026 Car)</span>
+        <span>SOLIDWORKS</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Project Summary</h4>
+          <p>Designed the Year 2 wheel center for the Flames Racing Formula SAE IC car, focusing on aggressive weight reduction and in-house manufacturing feasibility.</p>
+          <h4>Key Achievements &amp; Engineering Methods</h4>
+          <ul>
+            <li><strong>50% Weight Reduction:</strong> Achieved a 50% weight reduction from the previous year (Year 1 Design), minimizing unsprung mass and enhancing tire-to-road contact.</li>
+            <li><strong>Data-Driven FEA Simulations:</strong> Refined FEA simulations by using on-car data acquisition to derive maximum lateral and longitudinal G-loading from competition runs rather than using estimated static loads.</li>
+            <li><strong>In-House Machinability:</strong> Improved machinability of complex components using SOLIDWORKS to allow for in-house manufacturing.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <!-- Year 1 Photos Side-by-Side -->
+          <div class="side-grid-2">
+            <div class="visual-frame">
+              <img src="assets/images/fsae_wheel_center_y1_car.jpg" alt="Year 1 Wheel Center on Car" class="lightbox-trigger" data-caption="Year 1 Wheel Center on Car">
+              <div class="visual-caption">Year 1 Wheel Center on Car</div>
+            </div>
+            <div class="visual-frame">
+              <img src="assets/images/fsae_wheel_center_y1_fea.png" alt="Year 1 Wheel Center FEA Simulation" class="lightbox-trigger" data-caption="Year 1 Wheel Center FEA Simulation">
+              <div class="visual-caption">Year 1 Wheel Center FEA Simulation</div>
+            </div>
+          </div>
+
+          <!-- Year 2 Photos Side-by-Side -->
+          <div class="side-grid-2">
+            <div class="visual-frame">
+              <img src="assets/images/fsae_wheel_center_y2_iso.png" alt="Year 2 Wheel Center Isometric View" class="lightbox-trigger" data-caption="Year 2 Wheel Center Isometric View">
+              <div class="visual-caption">Year 2 Wheel Center Isometric View</div>
+            </div>
+            <div class="visual-frame">
+              <img src="assets/images/fsae_wheel_center_y2_fea.png" alt="Year 2 Wheel Center FEA Simulation" class="lightbox-trigger" data-caption="Year 2 Wheel Center FEA Simulation">
+              <div class="visual-caption">Year 2 Wheel Center FEA Simulation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ==================================================================
+         PROJECT 2: FSAE Wheel Hub Design
+         ================================================================== -->
+    <article class="project-entry" id="wheel-hub">
+      <h2 class="project-entry-title">FSAE Wheel Hub Design</h2>
+      <div class="project-entry-meta">
+        <span>Formula SAE Suspension &middot; CAD Modeling &middot; Structural Analysis</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Project Summary</h4>
+          <p>Designed custom front and rear wheel hubs to support multi-axis dynamic loads while reducing rotational unsprung mass.</p>
+          <h4>Key Achievements</h4>
+          <ul>
+            <li><strong>30–40% Weight Reduction:</strong> Achieved a 30–40% weight reduction between front and rear hubs compared to previous baseline components.</li>
+            <li><strong>Iterated Design Balance:</strong> Iterated design in SOLIDWORKS and FEA to balance weight and simulated strength under dynamic loading.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <!-- Front Hub: Model + FEA Side-by-Side (Top) -->
+          <div class="side-grid-2">
+            <div class="visual-frame">
+              <img src="assets/images/fsae_front_hub_cad.png" alt="Front Wheel Hub CAD Model" class="lightbox-trigger" data-caption="Front Wheel Hub CAD Model">
+              <div class="visual-caption">Front Wheel Hub CAD Model</div>
+            </div>
+            <div class="visual-frame">
+              <img src="assets/images/fsae_front_hub_fea.png" alt="Front Wheel Hub FEA Simulation" class="lightbox-trigger" data-caption="Front Wheel Hub FEA Simulation">
+              <div class="visual-caption">Front Wheel Hub FEA Simulation</div>
+            </div>
+          </div>
+
+          <!-- Rear Hub: Model + FEA Side-by-Side (Bottom) -->
+          <div class="side-grid-2">
+            <div class="visual-frame">
+              <img src="assets/images/fsae_rear_hub_cad.png" alt="Rear Wheel Hub CAD Model" class="lightbox-trigger" data-caption="Rear Wheel Hub CAD Model">
+              <div class="visual-caption">Rear Wheel Hub CAD Model</div>
+            </div>
+            <div class="visual-frame">
+              <img src="assets/images/fsae_rear_hub_fea.png" alt="Rear Wheel Hub FEA Simulation" class="lightbox-trigger" data-caption="Rear Wheel Hub FEA Simulation">
+              <div class="visual-caption">Rear Wheel Hub FEA Simulation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ==================================================================
+         PROJECT 3: FSAE Wheel Hub Final Product & Failure Analysis
+         ================================================================== -->
+    <article class="project-entry" id="failure-analysis">
+      <h2 class="project-entry-title">FSAE Wheel Hub Final Product: Failure Analysis</h2>
+      <div class="project-entry-meta">
+        <span>Manufacturing QC &middot; Stress Concentration &middot; Root Cause Analysis</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Case Study Overview</h4>
+          <p>Investigation of an experimental wheel hub that sheared during dynamic use compared to the final correctly manufactured component.</p>
+          <h4>Findings &amp; Root Cause</h4>
+          <ul>
+            <li><strong>Correctly Machined Hub (Left):</strong> Final component manufactured to exact specifications.</li>
+            <li><strong>Incorrectly Machined Hub (Right):</strong> Hub sheared during use. <em>Cause:</em> A chamfer was incorrectly machined in the place of a fillet, creating a stress concentration which caused the part to fail.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <div class="side-grid-2">
+            <div class="visual-frame">
+              <img src="assets/images/fsae_hub_correctly_machined.jpg" alt="Correctly Machined Hub (Fillet)" class="lightbox-trigger" data-caption="Correctly Machined Hub: Final component manufactured to exact specifications.">
+              <div class="visual-caption">Correctly Machined Hub (Fillet)</div>
+            </div>
+            <div class="visual-frame">
+              <img src="assets/images/fsae_hub_failure_analysis.jpg" alt="Incorrectly Machined Hub (Chamfer)" class="lightbox-trigger" data-caption="Incorrectly Machined Hub: Sheared during use due to a chamfer cut in place of a fillet.">
+              <div class="visual-caption">Incorrectly Machined Hub (Chamfer)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ==================================================================
+         PROJECT 4: Statics Popsicle Stick Bridge
+         ================================================================== -->
+    <article class="project-entry">
+      <h2 class="project-entry-title">Statics Popsicle Stick Bridge</h2>
+      <div class="project-entry-meta">
+        <span>School Project &middot; Ansys Simulation &middot; Structural Statics</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Project Summary</h4>
+          <p>Designed, simulated, and load-tested an optimized truss bridge under central point loading.</p>
+          <h4>Result</h4>
+          <ul>
+            <li><strong>Predictive Accuracy:</strong> Predicted bridge load capacity within <strong>~5%</strong> based on static structural Ansys simulation compared to actual physical destructive testing.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <div class="visual-frame">
+            <img src="assets/images/bridge_ansys_simulation.png" alt="Statics Popsicle Stick Bridge Ansys Simulation" class="lightbox-trigger" data-caption="Statics Popsicle Stick Bridge Ansys Simulation">
+            <div class="visual-caption">Ansys Static Structural Simulation</div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ==================================================================
+         PROJECT 5: Valmet Inc. Internship
+         ================================================================== -->
+    <article class="project-entry">
+      <h2 class="project-entry-title">Mechanical Engineering Internship &ndash; Valmet Inc.</h2>
+      <div class="project-entry-meta">
+        <span>Summer 2025 &middot; SOLIDWORKS CAD &middot; Tooling Design &middot; Excel Sizing Tools</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Key Responsibilities &amp; Deliverables</h4>
+          <ul>
+            <li>Created SolidWorks models and drawings for tube shield bend die designs.</li>
+            <li>Introduced an Excel-based sizing tool to output bend die dimensions for irregular tube shield sizes accounting for material spring-back.</li>
+            <li>Improved Excel tools for key products, enabling item number lookup within pricing spreadsheets.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <div class="highlight-card">
+            <div class="highlight-card-head">
+              <div class="highlight-card-logo">
+                <img src="assets/images/logos/valmet_diamond.svg" alt="Valmet Logo">
+              </div>
+              <h3 class="highlight-card-title">Internship Highlights</h3>
+            </div>
+            <ul class="highlight-card-list">
+              <li>CAD models and fabrication drawings for tube shield die manufacturing.</li>
+              <li>Spring-back compensation calculations integrated into sizing tools.</li>
+              <li>Automation of product pricing lookup formulas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!-- ==================================================================
+         PROJECT 6: Missionary Work in Ghana
+         ================================================================== -->
+    <article class="project-entry">
+      <h2 class="project-entry-title">Missionary Work in Ghana, West Africa</h2>
+      <div class="project-entry-meta">
+        <span>2015 &ndash; 2024 &middot; The Rafiki Foundation &middot; Community Outreach &amp; STEM Tutoring</span>
+      </div>
+
+      <div class="project-split-grid">
+        <div class="project-details">
+          <h4>Overview &amp; Service</h4>
+          <ul>
+            <li>Tutored African middle schoolers in math and science.</li>
+            <li>Helped lead events and activities for African kids in his community.</li>
+            <li>Developed adaptability, communication, and leadership skills across nine years of service.</li>
+          </ul>
+        </div>
+
+        <div class="project-visuals">
+          <div class="highlight-card">
+            <div class="highlight-card-head">
+              <div class="highlight-card-logo">
+                <img src="assets/images/logos/rafiki_emblem.png" alt="Rafiki Emblem">
+              </div>
+              <h3 class="highlight-card-title">Core Experience</h3>
+            </div>
+            <ul class="highlight-card-list">
+              <li>Math and science tutoring for middle school students.</li>
+              <li>Community leadership and youth program coordination.</li>
+              <li>Cross-cultural communication and collaborative problem-solving.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-overlay" id="lightboxOverlay">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxCloseBtn">&times;</button>
+      <div class="lightbox-img-box">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>&copy; 2026 Ian Nelson &middot; Mechanical Engineering Portfolio</div>
+      <div class="footer-nav">
+        <a href="mailto:ianinafrica9@gmail.com">ianinafrica9@gmail.com</a>
+        <a href="https://www.linkedin.com/in/ian-nelson-95b767352" target="_blank">LinkedIn &#8599;</a>
+        <a href="assets/Ian_Nelson_Resume.pdf" target="_blank">Resume PDF &#8599;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
